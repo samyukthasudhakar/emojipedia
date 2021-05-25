@@ -29,13 +29,7 @@ export default function App() {
   }
 
   function emojiClickHandler(emoji) {
-    console.log(emoji);
-    if (emoji in emojiLibrary) {
-      console.log(emojiLibrary[emoji]);
-      setEmojiMeaning(emojiLibrary[emoji]);
-    } else {
-      setEmojiMeaning("We don't have the meaning at the moment");
-    }
+    setEmojiMeaning(emojiLibrary[emoji]);
   }
 
   return (
