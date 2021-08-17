@@ -1,2 +1,2 @@
 # emojipedia
-Created with CodeSandbox
+An interpreter application that provides information on what a given emoji means.
